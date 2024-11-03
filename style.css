@@ -33,3 +33,16 @@ img{
         grid-template-columns: 1fr;
     }
 }
+
+@media screen and (min-width:577px) and (max-width:992px) {
+
+     .row{
+        flex-direction:column;
+        height: auto;
+        margin-bottom: 4px;
+    }
+    .lion-collage{
+        display:grid;
+        grid-template-columns:repeat(1,1fr);
+    }
+}
